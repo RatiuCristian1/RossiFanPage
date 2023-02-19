@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.header1 {
+    height: 800px;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    margin: 0;
+}
+
+.mySlides {
+    display: none;
+    width: 100%;
+}
+
+.mySlides img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+/* ....................................................... Navbar */
+
+nav {
+    background-color: gold;
+    overflow: hidden;
+    height: 75px;
+  }
+
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 60px 0px 0;
+    display: flex;
+    justify-content: end;
+    letter-spacing: 5px;
+    gap: 15px;
+
+  }
+  
+ /* nav li {
+    display: flex;
+ } */
+    
+
+  
+  
+  nav a {
+    display: flex;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  nav a:hover {
+    background-color: #edf04d;
+    border-radius: 5px;
+  }
+
+  .hero-logo {
+    width: 60px;
+    position: relative;
+    right: 1440px;
+    bottom: 13px;
+    border-radius: 5px;
+  }
+
+  /* ............................................................... Content */
+
+  .content-text {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 25px 0 40px 0;
+  }
+
+#content {
+    background: gold;
+}
+
+.content-img {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    justify-content: space-around;
+}
+
+.rossi-pit {
+    width: 540px;
+    margin-top: 20px;
+    margin-right: 150px;
+    border-radius: 10px;
+    border: 3px solid silver;
+}
+
+.rossi-ymh {
+    margin-top: 20px;
+    margin-left: 50px;
+    border-radius: 20px;
+    border: 3px solid silver;
+    position: absolute;
+}
+
+.rossi-btn {
+    background: #0d11dd;
+    padding: 8px 16px;
+    font-family: 'Exo', sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+    color: #edf04d;
+    position: relative;
+    top: 300px;
+    left: 350px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    transition-duration: 0.3s; 
+}
+
+.rossi-btn:hover {
+    background: #3235e2;
+}
+
+.rossi-btn:active {
+    background-color: #3235e2; /* Button color on click */
+    transform: translateY(8px); /* Push the button down when clicked */
+  }
