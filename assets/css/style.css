@@ -24,10 +24,15 @@
     width: 100%;
     object-fit: cover;
   }
+
+  .img-background {
+    
+  }
 /* ....................................................... Navbar */
 
 .navbar {
     display: flex;
+    justify-content: space-between;
     background-color: gold;
     overflow: hidden;
     /* height: 75px; */
@@ -36,14 +41,27 @@
 
   .navbar-left {
     height: 100px;
+    margin-left: 20px;
   }
 
   .navbar-right {
     padding-top: 10px;
-    padding-left: 55px;
+    padding-right: 100px;
     display: flex;
-    margin: 0 auto;
+    justify-content: center;
+    z-index: 1;
     
+  }
+
+  .menu {
+    font-family: 'Happy Monkey', sans-serif;
+    font-size: 40px;
+
+  }
+
+  .story {
+    font-family: 'Happy Monkey', sans-serif;
+    font-size: 40px;
   }
 
   
@@ -86,6 +104,7 @@
   }
 
   .logo {
+    margin-top: 30px;
     margin-left: 30px;
     position: absolute;
     z-index: 1;
@@ -167,16 +186,19 @@
 
 
       .navbar-right {
-        padding-top: 10px;
-        padding-left: 55px;
         display: flex;
+        margin-right: 70px;
         /* background-color: black; */
         
       }
 
       .logo {
-        width: 150px;
-        height: 150px;
+        width: 120px;
+        height: 120px;
+      }
+
+      .mySlides {
+        max-width: 450px;
       }
 
       .header1 {
@@ -186,6 +208,18 @@
       .content-text {
         font-size: 25px;
         text-align: center;
+      }
+
+      .menu {
+        font-family: 'Happy Monkey', sans-serif;
+        font-size: 30px;
+    
+      }
+    
+      .story {
+        font-family: 'Happy Monkey', sans-serif;
+        font-size: 30px;
+        
       }
 
     
